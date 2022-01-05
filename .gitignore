@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Vim scratch files
+.swp
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.eggs/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+*.swp
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/**/_build/
+docs/**/api/
+
+# PyBuilder
+target/
+
+
+# Psi4 quantities
+timer.dat
+*.out
+iter.dat
+psi*clean
+
+# Sample
+mongo_qcdb/sample.py
+test.py
+
+# Dask
+dask-worker-space/
+
+# Fireworks
+launcher_*
+fireworks_logfile.txt
+
+# Geometric
+energy.txt
+
+# SSl certs
+*.pem
+*.crt
+*.key
+
+# Other
+monkeytype.sqlite3
+
+# Parsl
+ipengine.*
+parsl_scripts/*
+runinfo/
+.idea/
+
+#vscode
+**/.vscode/
+
+# QCFractal backup files
+*.bak
+
+# Mac cruft
+.DS_Store
+
+.mypy_cache
+qcfractal/tests/MaxMind-DB
