@@ -48,3 +48,4 @@ jobs:
           mkdir run_tmp
           cd run_tmp
           python3 -c 'from qcportal import PortalClient;from qcfractalcompute import ComputeManager;'
+          qcfractal-manager --help
